@@ -72,9 +72,39 @@ python main.py
 ## 📊 Example Output
 
 After running `main.py`, you’ll see output like:
-🔍 Model Results:
 ```bash
+🔍 Model Results:
 Scikit-learn     → w = 2.49, b = 4.98, MSE = 2.91
 Gradient Descent → w = 2.48, b = 4.99, MSE = 2.94
 Least Squares    → w = 2.49, b = 4.98, MSE = 2.91
 ```
+
+---
+
+## 🖼️ Model Plots
+
+Each model produces a visualization showing the fitted regression line over the data:
+
+| Scikit-learn | Gradient Descent | Least Squares |
+|--------------|------------------|----------------|
+| ![Scikit-learn](plots/regression_sklearn.png) | ![Gradient Descent](plots/regression_gradient_descent.png) | ![Least Squares](plots/regression_least_squares.png) |
+
+These plots help visualize how well each method fits the data. Despite using different approaches, all three produce very similar results because the data is linear and noise is minimal.
+
+---
+
+## 🚀 Future Enhancements
+
+Here are some ideas for improving and expanding the project:
+
+- 📉 **Residual Plots**: Visualize the prediction errors (residuals) for deeper insights.
+- 📈 **Multivariate Linear Regression**: Extend the current setup to handle multiple features.
+- 🏠 **Real-World Datasets**: Apply the models to real datasets like the California Housing dataset.
+- ⏱️ **Performance Metrics**: Compare training times or convergence steps (especially for gradient descent).
+- 🧪 **Regularization**: Add L1/L2 regularized versions of gradient descent.
+
+---
+
+🧠 *This project is intentionally beginner-friendly — ideal for learning how linear regression works both mathematically and in practice with libraries.*
+
+---
