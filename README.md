@@ -1,16 +1,19 @@
-# 🔢 Linear Regression — Scratch to scikit-learn
+# 🔢 Linear Regression — Scratch to Scikit-learn
 
-This project demonstrates **Linear Regression** using:
-1. ✅ Scikit-learn (library-based)
-2. 🔧 Gradient Descent (from scratch)
-3. 🧮 Least Squares (analytical method)
+This project demonstrates **Linear Regression** using three different methods:
 
-We use a simple synthetic dataset generated from the equation:
-y = 2.5x + 5 + noise
+1. ✅ **Scikit-learn** — library-based implementation  
+2. 🔧 **Gradient Descent** — iterative method, implemented from scratch  
+3. 🧮 **Least Squares** — closed-form analytical solution  
+
+We use a **synthetic dataset** generated from the equation:
+
+> 🧾 `y = 2.5x + 5 + noise`
 
 ---
 
 ## 📁 Project Structure
+
 <pre>
 linear-regression-three-ways/
 ├── data/
@@ -20,9 +23,20 @@ linear-regression-three-ways/
 │   ├── gradient_descent.py      # Linear regression using gradient descent (from scratch)
 │   └── least_squares.py         # Linear regression using least squares (analytical method)
 ├── plots/
-│   └── regression_plot.png      # Output plot comparing all three models
+│   ├── regression_sklearn.png           # Plot of scikit-learn model
+│   ├── regression_gradient_descent.png # Plot of gradient descent model
+│   └── regression_least_squares.png     # Plot of least squares model
 ├── generate_data.py             # Script to generate synthetic dataset
-├── main.py                      # Runs all models, compares results, and plots them
+├── main.py                      # Runs all models, prints results, and saves plots
 ├── requirements.txt             # Python dependencies
 └── README.md                    # Project documentation
 </pre>
+
+---
+
+## ⚙️ How to Install and Run
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/your-username/linear-regression-three-ways.git
+cd linear-regression-three-ways
