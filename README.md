@@ -40,18 +40,22 @@ linear-regression-three-ways/
 ```bash
 git clone https://github.com/your-username/linear-regression-three-ways.git
 cd linear-regression-three-ways
+```
 
 ### 2. Install dependencies
 ```bash
 pip install -r requirements.txt
+```
 
 ### 3. Generate the dataset
 ```bash
 python generate_data.py
+```
 
 ### 4. Run the models
 ```bash
 python main.py
+```
 
 ---
 
