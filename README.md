@@ -40,3 +40,23 @@ linear-regression-three-ways/
 ```bash
 git clone https://github.com/your-username/linear-regression-three-ways.git
 cd linear-regression-three-ways
+
+### 2. Install dependencies
+```bash
+pip install -r requirements.txt
+
+### 3. Generate the dataset
+```bash
+python generate_data.py
+
+### 4. Run the models
+```bash
+python main.py
+
+## 🧠 Explanation of the Three Methods
+
+| Method           | Description                                                                 |
+|------------------|-----------------------------------------------------------------------------|
+| **Scikit-learn** | Uses `LinearRegression` from the `sklearn.linear_model` module.            |
+| **Gradient Descent** | Iteratively minimizes Mean Squared Error (MSE) using manual updates to weights and bias. |
+| **Least Squares** | Uses matrix algebra to solve for the best-fit line in one step (analytical). |
