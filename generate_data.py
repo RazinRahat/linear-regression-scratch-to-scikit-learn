@@ -17,3 +17,13 @@ df = pd.DataFrame({
 os.makedirs("data", exist_ok=True)
 df.to_csv("data/dataset.csv", index=False)
 print("✅ Synthetic dataset saved to 'data/dataset.csv'")
+
+# Optional: Plot the data
+# plt.scatter(X, y, color="blue", alpha=0.6, label="Data")
+# plt.title("Synthetic Linear Data")
+# plt.xlabel("x")
+# plt.ylabel("y")
+# plt.legend()
+# plt.grid(True)
+# plt.savefig("plots/synthetic_data_plot.png")
+# plt.show()
