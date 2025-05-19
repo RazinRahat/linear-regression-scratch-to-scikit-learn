@@ -87,7 +87,7 @@ Each model produces a visualization showing the fitted regression line over the 
 
 | Scikit-learn | Gradient Descent | Least Squares |
 |--------------|------------------|----------------|
-| ![Scikit-learn](plots/regression_sklearn.png) | ![Gradient Descent](plots/regression_gradient_descent.png) | ![Least Squares](plots/regression_least_squares.png) |
+| ![Scikit-learn](plots/regression_scikit-learn.png) | ![Gradient Descent](plots/regression_gradient_descent.png) | ![Least Squares](plots/regression_least_squares.png) |
 
 These plots help visualize how well each method fits the data. Despite using different approaches, all three produce very similar results because the data is linear and noise is minimal.
 
