@@ -11,16 +11,18 @@ y = 2.5x + 5 + noise
 ---
 
 ## 📁 Project Structure
-.
+<pre>
+linear-regression-three-ways/
 ├── data/
-│   └── dataset.csv             # Synthetic data (x, y)
+│   └── dataset.csv              # Generated synthetic dataset
 ├── models/
-│   ├── sklearn_model.py        # Scikit-learn regression
-│   ├── gradient_descent.py     # Gradient descent
-│   └── least_squares.py        # Least squares
-├── generate_data.py            # Script to create dataset
-├── main.py                     # Runs all three models & plots
+│   ├── sklearn_model.py         # Linear regression using Scikit-learn
+│   ├── gradient_descent.py      # Linear regression using gradient descent (from scratch)
+│   └── least_squares.py         # Linear regression using least squares (analytical method)
 ├── plots/
-│   └── regression_plot.png     # Output plot comparing models
-├── README.md
-└── requirements.txt
+│   └── regression_plot.png      # Output plot comparing all three models
+├── generate_data.py             # Script to generate synthetic dataset
+├── main.py                      # Runs all models, compares results, and plots them
+├── requirements.txt             # Python dependencies
+└── README.md                    # Project documentation
+</pre>
