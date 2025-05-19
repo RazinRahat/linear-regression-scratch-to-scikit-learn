@@ -55,8 +55,21 @@ python main.py
 
 ## 🧠 Explanation of the Three Methods
 
-| Method           | Description                                                                 |
-|------------------|-----------------------------------------------------------------------------|
-| **Scikit-learn** | Uses `LinearRegression` from the `sklearn.linear_model` module.            |
-| **Gradient Descent** | Iteratively minimizes Mean Squared Error (MSE) using manual updates to weights and bias. |
-| **Least Squares** | Uses matrix algebra to solve for the best-fit line in one step (analytical). |
+<table>
+  <tr>
+    <th>Method</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td><strong>Scikit-learn</strong></td>
+    <td>Uses <code>LinearRegression</code> from the <code>sklearn.linear_model</code> module.</td>
+  </tr>
+  <tr>
+    <td><strong>Gradient Descent</strong></td>
+    <td>Iteratively minimizes Mean Squared Error (MSE) using manual updates to weights and bias.</td>
+  </tr>
+  <tr>
+    <td><strong>Least Squares</strong></td>
+    <td>Uses matrix algebra to solve for the best-fit line in one step (analytical).</td>
+  </tr>
+</table>
