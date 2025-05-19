@@ -105,6 +105,15 @@ Here are some ideas for improving and expanding the project:
 
 ---
 
+## 🙋‍♂️ Why I Built This
+
+As a beginner, I wanted to understand Linear Regression deeply, not just use libraries. This project helped me learn:
+- How regression works mathematically
+- How to write and compare different implementations
+- How to organize a machine learning project
+
+---
+
 🧠 *This project is intentionally beginner-friendly — ideal for learning how linear regression works both mathematically and in practice with libraries.*
 
 ---
