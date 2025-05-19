@@ -73,6 +73,8 @@ python main.py
 
 After running `main.py`, you’ll see output like:
 🔍 Model Results:
+```bash
 Scikit-learn     → w = 2.49, b = 4.98, MSE = 2.91
 Gradient Descent → w = 2.48, b = 4.99, MSE = 2.94
 Least Squares    → w = 2.49, b = 4.98, MSE = 2.91
+```
