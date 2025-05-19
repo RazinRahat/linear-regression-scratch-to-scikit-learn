@@ -73,20 +73,3 @@ Scikit-learn     → w = 2.49, b = 4.98, MSE = 2.91
 Gradient Descent → w = 2.48, b = 4.99, MSE = 2.94
 Least Squares    → w = 2.49, b = 4.98, MSE = 2.91
 
----
-
-## 🖼️ Model Plots
-
-Below is a visual representation of the three models on the same synthetic dataset:
-
-| Scikit-learn | Gradient Descent | Least Squares |
-|--------------|------------------|----------------|
-| ![Scikit-learn](plots/regression_sklearn.png) | ![GD](plots/regression_gradient_descent.png) | ![LS](plots/regression_least_squares.png) |
-
----
-
-## 🚀 Future Enhancements
-
-- Add residual plots for error visualization
-- Include support for multivariate linear regression
-- Compare performance on real-world datasets like California Housing
