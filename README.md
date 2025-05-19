@@ -53,6 +53,8 @@ python generate_data.py
 ```bash
 python main.py
 
+---
+
 ## 🧠 Explanation of the Three Methods
 
 <table>
@@ -73,3 +75,5 @@ python main.py
     <td>Uses matrix algebra to solve for the best-fit line in one step (analytical).</td>
   </tr>
 </table>
+
+---
