@@ -57,23 +57,36 @@ python main.py
 
 ## 🧠 Explanation of the Three Methods
 
-<table>
-  <tr>
-    <th>Method</th>
-    <th>Description</th>
-  </tr>
-  <tr>
-    <td><strong>Scikit-learn</strong></td>
-    <td>Uses <code>LinearRegression</code> from the <code>sklearn.linear_model</code> module.</td>
-  </tr>
-  <tr>
-    <td><strong>Gradient Descent</strong></td>
-    <td>Iteratively minimizes Mean Squared Error (MSE) using manual updates to weights and bias.</td>
-  </tr>
-  <tr>
-    <td><strong>Least Squares</strong></td>
-    <td>Uses matrix algebra to solve for the best-fit line in one step (analytical).</td>
-  </tr>
-</table>
+| Method           | Description                                                                 |
+|------------------|-----------------------------------------------------------------------------|
+| **Scikit-learn** | Uses `LinearRegression` from the `sklearn.linear_model` module.            |
+| **Gradient Descent** | Iteratively minimizes Mean Squared Error (MSE) using manual updates to weights and bias. |
+| **Least Squares** | Uses matrix algebra to solve for the best-fit line in one step (analytical). |
 
 ---
+
+## 📊 Example Output
+
+After running `main.py`, you’ll see output like:
+🔍 Model Results:
+Scikit-learn     → w = 2.49, b = 4.98, MSE = 2.91
+Gradient Descent → w = 2.48, b = 4.99, MSE = 2.94
+Least Squares    → w = 2.49, b = 4.98, MSE = 2.91
+
+---
+
+## 🖼️ Model Plots
+
+Below is a visual representation of the three models on the same synthetic dataset:
+
+| Scikit-learn | Gradient Descent | Least Squares |
+|--------------|------------------|----------------|
+| ![Scikit-learn](plots/regression_sklearn.png) | ![GD](plots/regression_gradient_descent.png) | ![LS](plots/regression_least_squares.png) |
+
+---
+
+## 🚀 Future Enhancements
+
+- Add residual plots for error visualization
+- Include support for multivariate linear regression
+- Compare performance on real-world datasets like California Housing
